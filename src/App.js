@@ -26,7 +26,6 @@ class App extends React.Component {
             id: snapShot.id,
             ...snapShot.data(),
           });
-          console.log(this.state);
         });
       } else {
         setCurrentUser(userAuth);
@@ -62,7 +61,7 @@ class App extends React.Component {
   }
 }
 
-const mapStateToProps = (state) => createStructuredSelector({
+const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
 });
 
