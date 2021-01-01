@@ -7,6 +7,7 @@ import {selectCollections, selectCollectionForPreview} from '../../redux/shop/sh
 
 const CollectionOverview  = ({collections})=>{
   console.log(collections)
+  //pk_test_51I4SCyDDrAZGET9ot0N11yU10nNsdRLzJmW2WKiwBJ9rlwPgilPdERdCNpPBBsiCBsxUQCpbWA1S4TRazH1Padcj00a1PQ30pT
   return(
 
     <div className="collection-overview">
